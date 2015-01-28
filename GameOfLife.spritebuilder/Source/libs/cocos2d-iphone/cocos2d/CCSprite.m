@@ -184,7 +184,7 @@
 
 - (id) initWithSpriteFrame:(CCSpriteFrame*)spriteFrame
 {
-	NSAssert(spriteFrame!=nil, @"Invalid spriteFrame for sprite");
+	//NSAssert(spriteFrame!=nil, @"Invalid spriteFrame for sprite");
 
 	id ret = [self initWithTexture:spriteFrame.texture rect:spriteFrame.rect];
     self.spriteFrame = spriteFrame;
