@@ -4,8 +4,8 @@
 @implementation MainScene {
     Grid *_grid;
     CCTimer *_timer;
-    CCLabelTTF *_generationLabel;
-    CCLabelTTF *_populationLabel;
+    CCLabelTTF *_generationLable;
+    CCLabelTTF *_populationLable;
 }
 
 - (id)init
